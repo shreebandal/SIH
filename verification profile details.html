@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Request Profile</title>
+<style type="text/css">
+	.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #78106d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #f241df}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}p.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+</style>
+<script>
+function myFunction() {
+  alert("Congratulation! Your Request has been granted by higher authority and you are part of system now");
+}
+function myFunction2() {
+  alert("Sorry your request has been rejected by higher authority");
+}
+</script>
+</head>
+<body>
+	<center>
+	<p> <h1> Verification Request Profile </h1></p>
+<table>
+	<tr><td>Attribute</td>
+		<td>Value</td>
+	</tr>
+	<tr><td>
+		<button class="button" onclick="myFunction()">Grant</button>
+	</td>
+	<td>
+		<button class="button">Reject</button>
+	</td>
+</table>
+</center>
+</body>
+</html>
